@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { LayoutGrid, Target, CheckCircle2, Trash2, ListChecks } from "lucide-react";
+import { LayoutGrid, Target, CheckCircle2, Trash2 } from "lucide-react";
 
 import { useTodos } from "./hooks/useTask";
 import {
