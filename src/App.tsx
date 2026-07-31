@@ -116,11 +116,9 @@ const App: React.FC = () => {
           >
 
          
-            <div className="bg-gradient-to-br from-blue-600 via-blue-500 to-sky-400 px-8 pt-8 pb-12 relative overflow-hidden">
+            <div className="bg-gradient-to-br from-green-600 via-green-700 to-green-800 px-8 pt-8 pb-12 relative overflow-hidden">
             
-              <div className="absolute -top-8 -right-8 w-40 h-40 rounded-full bg-white/10" />
-              <div className="absolute -bottom-12 -left-6 w-36 h-36 rounded-full bg-white/[0.07]" />
-              <div className="absolute top-4 right-28 w-20 h-20 rounded-full bg-sky-400/30" />
+              
 
               <div className="relative flex items-start justify-between gap-4 flex-wrap">
                 <div>
@@ -140,7 +138,7 @@ const App: React.FC = () => {
                       ? "Semangat kerjakan pekerjaan hari ini!"
                       : stats.active > 0
                       ? `${stats.active} task tersisa · ${stats.progress}% selesai`
-                      : "Semuanya sudah selesai! 🎉"}
+                      : "Semuanya sudah selesai!"}
                   </p>
                   {hasTodos && (
                     <div className="mt-4 w-56">
